@@ -1,0 +1,55 @@
+{
+  "info": {
+    "_postman_id": "d2aeb13e-3389-4fe2-8c57-b4031baeffa7",
+    "name": "ms-exchange-rate",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40819678"
+  },
+  "item": [
+    {
+      "name": "obtener tipo cambio",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/v1/tipo-cambio/70274612",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "v1",
+            "tipo-cambio",
+            "70274612"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "obtener registros",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/v1/tipo-cambio/70274632/registros",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "v1",
+            "tipo-cambio",
+            "70274632",
+            "registros"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
